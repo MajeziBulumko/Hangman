@@ -1,0 +1,23 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+.vs/
+*.suo
+*.user
+
+# NuGet packages
+packages/
+
+# Node.js modules (if applicable)
+node_modules/
+
+# Temporary files
+*.log
+*.tmp
+*.exe
+*.dll
+*.pdb
+*.bak
+
