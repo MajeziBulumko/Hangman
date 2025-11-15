@@ -1,0 +1,25 @@
+atom,building block for all matter 
+inertia,newton’s first Law 
+alkaline,pH greater than 7
+skeleton,framework of body 
+viscosity,thickness of fluid  
+absorption,engross (what happens to water when you put a cloth)
+energy,power required for a chemical or physical process
+gravity,force attraction between two bodies 
+ion,molecule with a net electric charge 
+moon,satellite of earth 
+sun,star round which the earth orbits 
+universe,all existing matter that is in the cosmos
+beaker,container to pour solutions  
+cell,smallest unit of an organism 
+photosynthesis,exchange of solar energy into food 
+fossil,animal embedded in rock and preserved
+mass,a large body of matter with no definite shape
+species,group of living organisms consisting of similar individuals
+theory,set of ideas meant to explain something 
+tissue,part of organism consisting 
+gene,part of DNA for controlling growth 
+volume,space that an object occupies 
+acid,pH lower than 7 
+ecosystem,interaction between biotic and abiotic 
+newton,came up with the gravitational theorem    

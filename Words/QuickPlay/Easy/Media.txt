@@ -1,0 +1,26 @@
+bible,the most shoplifted book in history 
+ipod,portable mp3 player
+phone,portable telephone 
+computer,an electronic device which is capable of receiving information
+voice,the sound produced in a person's larynx
+cable,insulated wire or wires having a protective casing and used for transmitting electricity
+internet,global computer network providing a variety of information and communication 
+radio,the transmission and reception of electromagnetic waves of radio frequency
+video,moving visual 
+image,representation of the external form of a person or thing in art
+camera,a device for recording visual images in the form of photographs
+blog,regularly updated website or web page
+fame,known by many people 
+technology,application of scientific knowledge for practical purposes, especially in industry
+coverage,extent to which something deals with something else
+limelight,the focus of public attention 
+stage,venue where Broadway actors preform on 
+movie,a cinema film (the m in MCU)
+song,music with words 
+audience,spectators at event such as play
+book,bounded pages that tell a story 
+digital,not physical but expressed in 0 and 1 series 
+consumer,a person who purchases 
+hardware,physical equipment used to produce media texts 
+virtual,representation of reality 
+propaganda,information that is usually biased or has skewed knowledge

@@ -1,0 +1,25 @@
+dog,a loyal pet
+rat,master splinter
+cat,purrfect companion
+pig,oink-oink
+owl,wise bird
+spider,eight-legged freak
+cobra,venomous serpent 
+bear,winnie the pooh
+fly,hovers around trash
+worm,they slither in the wet soil
+shark,predators of the sea
+bee,buzz-buzz
+tiger,striped big cat
+lion,king of the jungle
+rabbit,this cute animal likes hopping around
+goat,Greatest of all time
+sheep,count them before you sleep
+snail,slow and small
+ant,so small yet so strong
+zebra,striped horse
+ape,Ceasar is their leader
+grasshopper,they have a shoebrand named after them
+frog,jump between livng on land and water
+wolf, full moon howling
+fox, sly

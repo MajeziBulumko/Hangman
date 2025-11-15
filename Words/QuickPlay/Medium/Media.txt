@@ -1,0 +1,25 @@
+telegram,old fashioned process of sending written messages 
+anthology,published collection of poems 
+symphony,full orchestra with movements 
+soundtrack,the music of a film 
+stream,transmission of data over the internet at a steady pace 
+communication,exchange of information 
+theatrical,related to onstage actors 
+performance,the act of presenting 
+information,facts and data presented in an arrangement 
+animation,moving cartoons or anime in english 
+story,news article or report 
+text,a book or other written or printed work,
+editorial,article written by editor voicing their point of view 
+creativity,the use of imagination 
+advertisement,a product/object that is publicized  
+journalism,discipline of reporting current affairs 
+newspaper,printed publication  	 
+classic,art of recognized and established value
+tabloid,articles usually related to pop-culture 
+source,where one receives information 
+opinion,person’s thought on a specific perspective 
+ethical,dealing with morals 
+headline,main title of an article  
+ombudsman,neutral individual by news organisation that resolves viewer complaints
+copyright,Laws that protect intellectual property 

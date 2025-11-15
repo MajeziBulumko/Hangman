@@ -1,0 +1,25 @@
+bioscience,intersection of nanotechnology and biology
+lepton,half integer spin of a particle 
+anomaly,abnormal occurrence 
+aerosol,spray can 
+chronograph,a precise instrument used to tell time 
+electroporator,microbiology technique used to make cells more permeable 
+vibrissae,long stiff hairs growing around the mouth or elsewhere on the face of mammals
+hazardous,risky or dangerous 
+atmosphere,envelope of gases surrounding the earth 
+compound,substance formed with teo or more chemically bond elements 
+comet,pieces of space matter with burning tail
+chromosome,building block of DNA
+acceleration,to increase in speed
+placebo,substance or treatment of no intended therapeutic valu
+phenotype,physical expression, or characteristics, of that trait
+yolk,yellow internal part of a bird's egg
+capacitor,a device used to store an electric charge
+photon,a type of elementary particle like light 
+endorphin,chemical released after gyming 
+eutrophication,process whereby a water experience excess of nutrients 
+urea,the main product of protein excreted by mammals through urine 
+telomere,a compound structure at the end of a chromosome
+genome,haploid set of chromosomes in a gamete
+isomer,each of two or more compounds with the same formula but a different arrangement of atom
+fission,division or splitting into two or more parts

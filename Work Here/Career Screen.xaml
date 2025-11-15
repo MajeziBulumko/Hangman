@@ -1,0 +1,54 @@
+﻿<Window x:Name="HangMan" x:Class="Work_Here.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Work_Here"
+        mc:Ignorable="d"
+        Title="Hangman" Height="480.477" Width="863.254" ResizeMode="NoResize">
+    <Grid>
+        <Canvas x:Name="drawer" HorizontalAlignment="Left" Height="434" VerticalAlignment="Top" Width="369" RenderTransformOrigin="0.137,0.153" Background="#FFF5F3F3" OpacityMask="#FF060606"/>
+        <Button x:Name="btnClue_" Content="Clue" HorizontalAlignment="Left" Margin="374,10,0,0" VerticalAlignment="Top" Width="87" Height="47" Click="btnClue__Click" UseLayoutRounding="False" Background="#FFE4E4E4" FontSize="18" FontFamily="Comic Sans MS" BorderThickness="0"/>
+        <Button x:Name="btnPause" Content="Pause" HorizontalAlignment="Left" Margin="498,10,0,0" VerticalAlignment="Top" Width="87" Height="47" Background="#FFE4E4E4" Click="btnPause_Click" FontSize="18" FontFamily="Comic Sans MS" BorderThickness="0"/>
+        <Button x:Name="btnMenu" Content="Main Menu" HorizontalAlignment="Left" Margin="622,10,0,0" VerticalAlignment="Top" Width="95" Height="47" Click="btnMenu_Click" Background="#FFE4E4E4" FontSize="18" FontFamily="Comic Sans MS" BorderThickness="0"/>
+        <Button x:Name="btnQuit" Content="Quit" HorizontalAlignment="Left" Margin="748,10,0,0" VerticalAlignment="Top" Width="87" Height="47" Background="#FFE4E4E4" Click="btnQuit_Click" FontSize="18" FontFamily="Comic Sans MS" BorderThickness="0"/>
+        <Label x:Name="lblWord" Content="" HorizontalAlignment="Left" Margin="374,207,0,0" VerticalAlignment="Top" Height="70" Width="461" FontSize="24" Background="#FFE4E4E4" FontWeight="Bold" FontFamily="Comic Sans MS"/>
+        <Label x:Name="lblScore" Content="" HorizontalAlignment="Left" Margin="446,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.475,0.106" Width="59" Height="36" FontSize="20" FontWeight="Bold"/>
+        <Grid HorizontalAlignment="Left" Height="152" Margin="374,282,0,0" VerticalAlignment="Top" Width="461" Background="#FFAAAAAA">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnA" Content="A" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" RenderTransformOrigin="0.192,0.311" Height="36" Click="btnA_Click" Margin="43,52,0,0" Background="#FFF0EDED" BorderThickness="0"/>
+            <Button x:Name="btnB" Content="B" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" RenderTransformOrigin="0.5,1.306" Margin="243,101,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnB_Click"/>
+            <Button x:Name="btnC" Content="C" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="160,101,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnC_Click"/>
+            <Button x:Name="btnD" Content="D" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="125,52,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnD_Click"/>
+            <Button x:Name="btnE" Content="E" HorizontalAlignment="Left" Margin="109,7,0,0" VerticalAlignment="Top" Width="36" Height="36" Background="#FFF0EDED" BorderThickness="0" Click="btnE_Click"/>
+            <Button x:Name="btnF" Content="F" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="166,52,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnF_Click"/>
+            <Button x:Name="btnG" Content="G" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="207,52,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnG_Click"/>
+            <Button x:Name="btnH" Content="H" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="248,52,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnH_Click"/>
+            <Button x:Name="btnI" Content="I" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="315,7,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnI_Click"/>
+            <Button x:Name="btnJ" Content="J" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="288,52,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnJ_Click"/>
+            <Button x:Name="btnK" Content="K" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="329,52,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnK_Click"/>
+            <Button x:Name="btnL" Content="L" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" RenderTransformOrigin="-0.1,1.194" Margin="370,52,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnL_Click"/>
+            <Button x:Name="btnM" Content="M" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="325,101,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnM_Click"/>
+            <Button x:Name="btnN" Content="N" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="284,101,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnN_Click"/>
+            <Button x:Name="btnO" Content="O" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="356,7,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnO_Click"/>
+            <Button x:Name="btnP" Content="P" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="397,7,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnP_Click"/>
+            <Button x:Name="btnQ" Content="Q" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="27,7,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnQ_Click"/>
+            <Button x:Name="btnR" Content="R" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="150,7,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnR_Click"/>
+            <Button x:Name="btnS" Content="S" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="84,52,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnS_Click"/>
+            <Button x:Name="btnT" Content="T" HorizontalAlignment="Left" Width="36" Margin="191,7,0,109" Background="#FFF0EDED" BorderThickness="0" Click="btnT_Click"/>
+            <Button x:Name="btnU" Content="U" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="274,7,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnU_Click"/>
+            <Button x:Name="btnV" Content="V" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="201,101,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnV_Click"/>
+            <Button x:Name="btnW" Content="W" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="68,7,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnW_Click"/>
+            <Button x:Name="btnX" Content="X" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Height="36" Margin="119,101,0,0" Background="#FFF0EDED" BorderThickness="0" Click="btnX_Click"/>
+            <Button x:Name="btnY" Content="Y" HorizontalAlignment="Left" Margin="233,7,0,0" VerticalAlignment="Top" Width="36" RenderTransformOrigin="0.173,0.35" Height="36" Background="#FFF0EDED" BorderThickness="0" Click="btnY_Click"/>
+            <Button x:Name="btnZ" Content="Z" Margin="78,101,347,0" VerticalAlignment="Top" RenderTransformOrigin="0.173,0.35" Height="36" Background="#FFF0EDED" BorderThickness="0" Click="btnZ_Click"/>
+        </Grid>
+        <Label x:Name="lblClue" Content="" HorizontalAlignment="Left" Margin="374,62,0,0" VerticalAlignment="Top" Width="413" Height="105" FontFamily="Comic Sans MS" FontSize="16"/>
+        <Label Content="Score" HorizontalAlignment="Left" Margin="374,168,0,0" VerticalAlignment="Top" Width="67" Height="36" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Player" HorizontalAlignment="Left" Margin="590,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.577,1.073" Height="36" Width="92" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="lblPlayer" Content="" HorizontalAlignment="Left" Margin="672,166,0,0" VerticalAlignment="Top" Width="163" Height="36" FontSize="20" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
